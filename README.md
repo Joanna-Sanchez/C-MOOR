@@ -7,9 +7,9 @@ This repository follows the original setup instructions provided in the
 
 The base environment is provided using the following Docker image:
 
-```bash
+```
 docker pull us.gcr.io/broad-dsp-gcr-public/anvil-rstudio-bioconductor:3.19.1
-
+```
 
 ### To save my changes
 ```
