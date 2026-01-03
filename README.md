@@ -9,3 +9,12 @@ The base environment is provided using the following Docker image:
 
 ```bash
 docker pull us.gcr.io/broad-dsp-gcr-public/anvil-rstudio-bioconductor:3.19.1
+
+
+### To save my changes
+```
+git add <script name>
+git status  # this will show you what has been modified/added/deleted
+git commit -m "add your message here"
+git push
+```
