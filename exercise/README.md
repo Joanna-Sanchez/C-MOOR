@@ -42,9 +42,13 @@ You'll be able to see first 10 lines of dataframe
 	     9  8.450406e-01
 	     10 7.596855e-01
 ```
-
-
-Using R script, you can do the same thing,
+To Exit interactive R type:
 ```
-Rscript ../exercise/run_deseq2_step1.R
+q()
 ```
+
+Now, using R script, you can do the same thing,
+```
+Rscript /home/rstudio/exercise/run_deseq2_step1.R
+```
+<img width="781" height="608" alt="Image" src="https://github.com/user-attachments/assets/89d8ac65-19b2-4201-9c70-bd0f4c089d25" />
