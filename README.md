@@ -111,20 +111,35 @@ colData names(2): condition sizeFactor
 
 To further navigate, see [exercise](https://github.com/Joanna-Sanchez/C-MOOR/tree/main/exercise).
 
-## 7. To rerun the docker container we created:
+## 7. Restarting and Re-entering an Existing Docker Container
+
+If you have already created the Docker container before, you **do not need to recreate it**.  
+After restarting Docker Desktop (or your Mac), the container may be stopped.
+
+### 7.1 Check Existing Containers
+
+List all containers (including stopped ones):
+
 ```
 docker ps -a
 ```
-and check if there is running docker image.
+Example output: 
 ```
 CONTAINER ID   IMAGE                                                              COMMAND                  CREATED      STATUS      PORTS      NAMES
 cc9ae92081c6   us.gcr.io/broad-dsp-gcr-public/anvil-rstudio-bioconductor:3.19.1   "/opt/nvidia/nvidia_…"   2 days ago   Up 2 days   8787/tcp   cmoor_rnaseq
 ```
-
-using `NAMES`
+### 7.2 Start the Container
+Start the existing container using `NAMES`
+```
+docker start cmoor_rnaseq
+```
+### 7.3 Enter the Running Container
+Once the container is running, open a shell inside it:
 ```
 docker exec -it cmoor_rnaseq bash
 ```
+You are now inside the Docker container environment.
+
 
 ### To save my changes
 ```
