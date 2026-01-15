@@ -28,6 +28,8 @@ Check Docker installation:
 ```
 docker --version
 ```
+<img width="422" height="257" alt="Image" src="https://github.com/user-attachments/assets/cb22d3b8-dddf-46cb-8ef9-388110261319" />
+
 If you don’t already have Docker installed, download it from [the official Docker Desktop download page](https://docs.docker.com/desktop/setup/install/mac-install/) and follow the instruction there. 
 
 To verify the installation, run:
