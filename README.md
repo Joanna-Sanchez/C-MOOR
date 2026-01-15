@@ -39,11 +39,12 @@ docker --version
 ```
 from your terminal.
 
-## 1. Clone this repository
+## 1. Clone this repository in your home directory
 
 ```
+cd ~ 
 git clone https://github.com/Joanna-Sanchez/C-MOOR.git cmoor-rnaseq-docker
-cd cmoor-rnaseq-docker
+cd ~/cmoor-rnaseq-docker
 ```
 
 ## 2. Start the Docker container
