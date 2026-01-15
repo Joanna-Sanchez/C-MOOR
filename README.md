@@ -12,6 +12,17 @@ No SciServer or [AnVIL](https://anvil.terra.bio/#workspaces/c-moor-wcc-fa25/mini
 - macOS (Intel or Apple Silicon)
 - Docker Desktop
 
+### How to check Docker installation on Terminal 
+
+You will need to use the macOS **Terminal** application to run Docker commands.
+
+A. Use Spotlight
+   1. Press **Command + Space**
+   2. Type 'Terminal'
+   3. Press **Enter**
+   4. A Terminal window will open
+ 
+
 Check Docker installation:
 
 ```
