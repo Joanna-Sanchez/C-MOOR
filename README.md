@@ -71,6 +71,7 @@ from your terminal.
 cd /home/rstudio/
 git clone https://github.com/C-MOOR/cure-rnaseq.git
 ```
+<img width="1005" height="287" alt="Image" src="https://github.com/user-attachments/assets/c8fe83f8-275a-4bb8-95b7-896d78cfedd1" />
 
 ## 5. To finish the remaining setup for the cloned repository,
 ```
@@ -89,6 +90,7 @@ just ignore.
 ```
 R
 ```
+<img width="690" height="427" alt="Image" src="https://github.com/user-attachments/assets/26890792-ed67-4db2-acaa-64c259f5807b" />
 
 Verify packages:
 ```
