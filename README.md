@@ -46,6 +46,7 @@ cd ~
 git clone https://github.com/Joanna-Sanchez/C-MOOR.git cmoor-rnaseq-docker
 cd ~/cmoor-rnaseq-docker
 ```
+<img width="704" height="371" alt="Image" src="https://github.com/user-attachments/assets/77bf1579-fc05-4d95-844e-3eb3e1bc247c" />
 
 ## 2. Start the Docker container
 
