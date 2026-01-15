@@ -55,9 +55,10 @@ docker run -it \
   --name cmoor_rnaseq \
   -v $(pwd):/home/rstudio \
   us.gcr.io/broad-dsp-gcr-public/anvil-rstudio-bioconductor:3.19.1 \
+bash
 ```
 
-This mounts the repository into the container at `/home/rstudio`.
+This mounts the repository into the container at `/home/rstudio`. Can take 15-20 minutes (only first time). 
 
 ## 3. Then you are now in the docker container, and can see something like
 ```
